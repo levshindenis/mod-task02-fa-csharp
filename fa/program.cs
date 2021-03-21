@@ -117,15 +117,6 @@ namespace fans
     {
        static void Main(string[] args)
         {
-            String s = "10010110";
-            FA1 fa = new FA1();
-            bool? result = fa.Run(s);
-            Console.WriteLine(result);
-
-            FA2 fa2 = new FA2();
-
-            bool? result2 = fa2.Run(s);
-            Console.WriteLine(result2);
         }
     }
 }
